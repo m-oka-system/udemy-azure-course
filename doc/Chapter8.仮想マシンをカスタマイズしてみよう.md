@@ -14,6 +14,8 @@
 
 - [Managed Disks の価格](https://azure.microsoft.com/ja-jp/pricing/details/managed-disks/)
 
+- [仮想マシンの複製方法のご紹介 (Part.1)](https://blogs.technet.microsoft.com/jpaztech/2018/09/21/arm-vm-replication-part-1/)
+
 - [実行コマンドを使用して Windows VM で PowerShell スクリプトを実行する](https://docs.microsoft.com/ja-jp/azure/virtual-machines/windows/run-command)
 
 ## コマンド集
