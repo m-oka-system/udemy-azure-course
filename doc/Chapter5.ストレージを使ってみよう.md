@@ -10,6 +10,8 @@
 
 - [ストレージ アカウントの課金について](https://blogs.msdn.microsoft.com/dsazurejp/2019/02/26/strageaccount/)
 
+- [Azureディスクストレージの種類(2018年6月現在)](https://blogs.technet.microsoft.com/jpaztech/2018/06/11/choose_azure_disk/)
+
 - [Azure Storage Explorer で AzCopy のサポートのパブリック プレビューを開始](https://blogs.technet.microsoft.com/mssvrpmj/2019/03/15/azcopy-support-in-azure-storage-explorer-now-available-in-public-preview/)
 
 ## コマンド集
