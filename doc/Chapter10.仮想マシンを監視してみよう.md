@@ -60,8 +60,8 @@ Event
 
 ## コマンド集
 ```bash
-# 10GBのダミーファイルを作成
-fsutil file createnew dummyfile 10737418240
+# 40GBのダミーファイルを作成
+fsutil file createnew dummyfile 42949672960
 
 # イベントログを書き込み
 EVENTCREATE /ID 999 /L system /SO sys_test /T Error /D "これは System の Error のテストです。"
