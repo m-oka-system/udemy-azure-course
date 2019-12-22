@@ -8,7 +8,7 @@
 
 - [Azure Monitor で Log Analytics の使用を開始する](https://docs.microsoft.com/ja-jp/azure/azure-monitor/log-query/get-started-portal)
 
-- [Azure Monitor ログ レコードの標準プロパティ](hhttps://docs.microsoft.com/ja-jp/azure/azure-monitor/platform/log-standard-properties)
+- [Azure Monitor ログ レコードの標準プロパティ](https://docs.microsoft.com/ja-jp/azure/azure-monitor/platform/log-standard-properties)
 
 - [Azure Monitor ログ クエリの便利な演算子](https://docs.microsoft.com/ja-jp/azure/azure-monitor/log-query/useful-operators)
 
