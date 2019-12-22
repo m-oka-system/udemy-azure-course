@@ -41,8 +41,8 @@ Perf
 Perf
 | where Computer == "w-iaas-vm01"
 | where CounterName == "% Free Space"
-| where InstanceName matches regex "[A-Z]:" 
 | extend UsedSpace = 100 - CounterValue 
+| where InstanceName matches regex "[A-Z]:" 
 | summarize arg_max(TimeGenerated, UsedSpace) by Computer, InstanceName
 | sort by InstanceName asc 
 | where (InstanceName == "C:" and UsedSpace > 70)
