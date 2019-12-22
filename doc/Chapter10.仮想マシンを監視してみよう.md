@@ -50,12 +50,12 @@ or (InstanceName == "D:" and UsedSpace > 70)
 or (InstanceName == "E:" and UsedSpace > 70)
 
 # イベントログ監視
-Event 
-| where Computer == "w-iaas-vm01" 
+Event
+| where Computer == "w-iaas-vm01"
 | where EventLevelName == "Error"
-| where not (EventID == 46 and Source == "volmgr") 
-| project TimeGenerated , Computer , EventLog , EventLevelName , EventID ,　Source , RenderedDescription 
-| sort by TimeGenerated asc
+| where not (EventID == 46 and Source == "volmgr")
+| project TimeGenerated , Computer , EventLog , EventLevelName , EventID , Source , RenderedDescription 
+| sort by TimeGenerated asc 
 ```
 
 ## コマンド集
