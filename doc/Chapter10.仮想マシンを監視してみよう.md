@@ -38,12 +38,13 @@ Perf
 | sort by TimeGenerated asc
 
 # ディスク使用率監視
-Perf 
-| where Computer == "w-iaas-vm01" 
+Perf
+| where Computer == "w-iaas-vm01"
 | where CounterName == "% Free Space"
-| extend UsedSpace = 100 - CounterValue 
 | where InstanceName matches regex "[A-Z]:" 
-| summarize arg_max(TimeGenerated, UsedSpace) by InstanceName, Computer
+| extend UsedSpace = 100 - CounterValue 
+| summarize arg_max(TimeGenerated, UsedSpace) by Computer, InstanceName
+| sort by InstanceName asc 
 
 # イベントログ監視
 Event 
