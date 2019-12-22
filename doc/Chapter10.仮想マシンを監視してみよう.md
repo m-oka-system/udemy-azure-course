@@ -45,6 +45,9 @@ Perf
 | extend UsedSpace = 100 - CounterValue 
 | summarize arg_max(TimeGenerated, UsedSpace) by Computer, InstanceName
 | sort by InstanceName asc 
+| where (InstanceName == "C:" and UsedSpace > 70)
+or (InstanceName == "D:" and UsedSpace > 70)
+or (InstanceName == "E:" and UsedSpace > 70)
 
 # イベントログ監視
 Event 
