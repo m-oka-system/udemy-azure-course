@@ -16,6 +16,8 @@
 
 - [マイクロソフト提供の負荷ツール](https://blogs.msdn.microsoft.com/vijaysk/2012/10/26/tools-to-simulate-cpu-memory-disk-load/)
 
+- [Service Health の概要](https://docs.microsoft.com/ja-jp/azure/service-health/service-health-overview)
+
 
 ## ログ検索の監視クエリ
 ```
