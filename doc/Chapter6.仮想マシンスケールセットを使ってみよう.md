@@ -30,6 +30,6 @@ while ($true) {}
 仮想マシン作成時と同じように基本情報を入力する。
 イメージはあらかじめ作成(日本語化)しているカスタムイメージを選択する。
 
-![VMSSの作成-基本](https://github.com/m-oka-system/udemy-azure-course/tree/master/Chapter6/image/vmss/basic.png)
+![VMSSの作成-基本](https://user-images.githubusercontent.com/22112831/80272531-80942480-8705-11ea-95b5-44254e1975e3.png)
 
-<img src=https://github.com/m-oka-system/udemy-azure-course/tree/master/Chapter6/image/vmss/basic.png width=70%>
+<img src=https://user-images.githubusercontent.com/22112831/80272531-80942480-8705-11ea-95b5-44254e1975e3.png width=70%>
