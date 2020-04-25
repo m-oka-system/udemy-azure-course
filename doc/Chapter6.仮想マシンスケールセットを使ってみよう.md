@@ -48,7 +48,7 @@ NICネットワークセキュリティグループを **「なし」に修正�
 ![VMSSの作成-ネットワーク(NIC編集)](https://user-images.githubusercontent.com/22112831/80272852-13ce5980-8708-11ea-8883-0a8f277a80b5.png)
 
 **[ネットワーク]**  
-元の画面に戻るので「ロードバランサーを使用する」を「はい」に変更して  
+元の画面に戻って「ロードバランサーを使用する」を「はい」に変更して  
 Azure Load Balancerを新規作成する。
 ![VMSSの作成-ネットワーク(編集後)](https://user-images.githubusercontent.com/22112831/80272630-22b40c80-8706-11ea-9a1d-7fb12e818884.png)
 
