@@ -24,3 +24,12 @@ WindowsWebServer.ps1\IISInstall
 ```powershell
 while ($true) {}
 ```
+
+## VMSS作成手順(2020年4月時点)
+
+仮想マシン作成時と同じように基本情報を入力する。
+イメージはあらかじめ作成(日本語化)しているカスタムイメージを選択する。
+
+![VMSSの作成-基本](https://github.com/m-oka-system/udemy-azure-course/tree/master/Chapter6/image/vmss/VMSSの作成-基本.png)
+
+<img src=https://github.com/m-oka-system/udemy-azure-course/tree/master/Chapter6/image/vmss/VMSSの作成-基本.png width=70%>
