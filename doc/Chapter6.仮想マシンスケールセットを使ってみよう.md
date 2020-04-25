@@ -61,7 +61,7 @@ Azure Load Balancerを新規作成する。
 ![VMSSの作成-管理](https://user-images.githubusercontent.com/22112831/80272903-99520980-8708-11ea-883a-c5faef9cb460.png)
 
 **[正常性]**  
-無効のまま次へ。
+無効のまま次へ。  
 ![VMSSの作成-正常性](https://user-images.githubusercontent.com/22112831/80272922-bb4b8c00-8708-11ea-8b21-20580e5b6478.png)
 
 「詳細」「タグ」の項目はデフォルトのまま進めて作成する。
